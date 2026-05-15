@@ -44,6 +44,7 @@ def train_classification(X_train, y_train, X_test, y_test):
     print(f"  {cm}")
 
     # Sauvegarde
+    import os; os.makedirs("models", exist_ok=True)
     joblib.dump(clf, "models/classification.pkl")
     print("\n  💾 Sauvegardé → models/classification.pkl")
     return clf

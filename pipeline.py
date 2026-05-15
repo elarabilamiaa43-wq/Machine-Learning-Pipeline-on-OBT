@@ -44,7 +44,7 @@ def run():
     )
     train_classification(X_tr2, y_tr2, X_te2, y_te2)
 
-    # ── ÉTAPE 5 : Graphiques (optionnel) ─────────────────
+    # ── ÉTAPE 5 : Graphiques ─────────────────
     print("\n📊 Génération des graphiques...")
     plot_regression(y_te, reg_model, X_te)
     plot_feature_importance(reg_model, X_tr)

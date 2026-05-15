@@ -1,1 +1,18 @@
 .env
+ 
+# 🤖 Modèles entraînés (trop lourds)
+models/*.pkl
+ 
+# 📊 Données brutes
+data/
+ 
+# 🐍 Environnement virtuel
+venv/
+__pycache__/
+*.pyc
+ 
+# 💻 VS Code
+.vscode/
+ 
+# 📓 Jupyter
+.ipynb_checkpoints/
